@@ -1,0 +1,40 @@
+/* You may modify this if you wish. Please indicate which sections you modified, added, or removed. */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    /* added gradient background and min-height */
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    /* added text shadow and margin-bottom */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    /* added border-radius */
+    border-radius: 5px;
+    cursor: pointer;
+    /* Added: Added transition effects */
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Added: Hover effect for button */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Added: Active effect for button */
+button:active {
+    transform: scale(0.95);
+}
